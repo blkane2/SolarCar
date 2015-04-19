@@ -15,13 +15,17 @@ body,html{
 #header {
 	background-color:#8FCEF8;
 	height:10.7em;
+	width:74.05em;
 	font-family:sans-serif;
-	padding:0px;
-	margin:-15px -15px -15px -15px;
+	padding:0px 15px 0px 0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:-15px;
 }
 
 
 #header h1 {
+	position:static;
 	margin:0;
 	letter-spacing:.38em;
 	padding-top:15px;
@@ -41,6 +45,8 @@ body,html{
 }
 
 .navbar ul{
+	position:relative;
+	float:left;
 	margin:0px 0px 0px -1.7em;
 	list-style:none;
 	width:100%;
@@ -68,7 +74,7 @@ body,html{
 .descriptions {
 	display:block;
 	clear:both;
-	width:101.2%;
+	width:75em;
 	height:34.1em;
 	background-color:#E8F4FD;
 	padding:0.1px;
