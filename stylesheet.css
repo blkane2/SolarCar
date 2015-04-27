@@ -13,13 +13,14 @@ body,html{
 }
 
 #header {
+	/*fix centering stuff!*/
 	background-color:#8FCEF8;
 	height:10.7em;
 	width:74.05em;
 	font-family:sans-serif;
 	padding:0px 15px 0px 0px;
-	margin-left:auto;
-	margin-right:auto;
+	/*margin-left:auto;
+	margin-right:auto;*/
 	margin-bottom:-15px;
 }
 
@@ -79,7 +80,10 @@ body,html{
 	background-color:#E8F4FD;
 	padding:0.1px;
 	margin:15px 0px -15px 0px;
-	border-bottom:1px solid black;
+	display:block;
+	clear:both;
+	/*opacity:.7;
+	background-image:url("images/Altgeld_Pic_2.jpg");*/
 }
 
 .blueboxleft {
@@ -88,7 +92,7 @@ body,html{
 	/*background-color:#002563;*/
 	background-color:rgba(0,37,99,0.96);
 	margin-left:2.9em;
-	opacity:.7;
+	opacity:.9;
 	overflow-y:scroll;
 	overflow-x:hidden;
 }
@@ -99,10 +103,11 @@ body,html{
 	height:25.4em;
 	/*background-color:#002563;*/
 	background-color:rgba(0,37,99,0.96);
+	margin-top:1.4em;
 	margin-right:2.4em;
 	overflow-y:scroll;
 	overflow-x:hidden;
-	opacity:.7;
+	opacity:.9;
 }
 
 .blueboxleft p{
@@ -110,7 +115,7 @@ body,html{
 	color:white;
 	font-family:Raleway, Arial, sans-serif;
 	font-size:1.23em;
-	opacity:1;
+	opacity:.9;
 }
 
 .blueboxright p {
@@ -121,8 +126,81 @@ body,html{
 	font-size:1.23em;
 }
 
-.descriptions{
-	display:block;
-	clear:both;
-	/* TODO: find out if this actually does anything?*/
+
+#home {
+	position:relative;
+}
+
+#home img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+#about {
+	position:relative;
+
+}
+
+#about img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+#contact{
+	position:relative;
+}
+
+#contact img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+#sponsors {
+	position:relative;
+}
+
+#sponsors img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+#progress{
+	position:relative;
+}
+
+#progress img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.headerleft {
+	margin-left:1.9em;
+	letter-spacing:.1em;
+}
+
+.headerright{
+	text-align:right;
+	margin-bottom:0;
+	margin-right:;
+	padding-bottom:0;
 }
