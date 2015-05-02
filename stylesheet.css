@@ -101,7 +101,7 @@ body,html{
 	height:25.4em;
 	/*background-color:#002563;*/
 	background-color:rgba(0,37,99,.8);
-	margin-top:1.4em;
+	margin-top:.7em;
 	margin-right:2.4em;
 	overflow-y:scroll;
 	overflow-x:hidden;
@@ -193,6 +193,7 @@ body,html{
 
 .headerleft {
 	margin-left:1.4em;
+	margin-bottom:0.17em;
 	letter-spacing:.1em;
 	color:rgba(0,37,99,1);
 	z-index:2;
@@ -202,7 +203,7 @@ body,html{
 
 .headerright{
 	text-align:right;
-	margin-bottom:0;
+	margin-bottom:0.17em;
 	margin-right:1.1em;
 	padding-bottom:0;
 	color:rgba(0,37,99,1);
@@ -213,21 +214,20 @@ body,html{
 }
 
 .rightbar{
-	color:rgba(0,37,99,1);
-	width:15em;
+	background-color:rgba(0,37,99,1);
+	width:32.4em;
 	height:.05em;
 	position:relative;
-	z-index:2;
-	margin:auto;
-	padding:auto;
+	z-index:3;
+	margin:0em 0em 0em 40.1em;
 }
 
+
 .leftbar{
-	color:rgba(0,37,99,1);
-	width:15em;
+	background-color:rgba(0,37,99,1);
+	width:32.4em;
 	height:.05em;
 	position:relative;
-	z-index:2;
-	margin:auto;
-	padding:auto;
+	z-index:3;
+	margin:0em 0em 0.6em 2.9em;
 }
